@@ -50,3 +50,5 @@ Finally, it deletes the temporary file using fnDeleteFileA
 i used linux to build the cpp code u can use this command
 
 ''x86_64-w64-mingw32-g++ -o Xanthorox_keylogger.exe keylogger.cpp -lws2_32 -lole32 -lrpcrt4 -lwinhttp -static-libgcc -static-libstdc++ -s -Wl,-subsystem,windows -std=c++17 -pthread -static''
+
+Note = make sure your compiler is properly adjusted or else u will get problem with the build , not on the code but from the compiler
